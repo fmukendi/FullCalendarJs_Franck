@@ -1,0 +1,42 @@
+<html>
+ <head>
+ <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+ <title>Using fullCalendar</title>
+
+ <!--
+7 All CSS and JS files needed for fullCalendar. Change you
+8 files locations accordingly.
+9 -->
+
+ <link rel='stylesheet' href='../node_modules/fullcalendar/dist/fullcalendar.css' />
+ <script src='../node_modules/jquery/dist/jquery.min.js'></script>
+ <script src='../node_modules/moment/min/moment.min.js'></script>
+ <script src='../node_modules/fullcalendar/dist/fullcalendar.min.js'></script>
+
+ <!-- Some styles for the calendar and other elements -->
+ <style>
+ #calendar {
+ width: 80%;
+ display: block;
+ margin-left: auto;
+ margin-right: auto;
+ }
+
+ .centered {
+ text-align: center;
+ }
+
+ </style>
+ </head>
+
+ <body>
+ <h1 class="centered">A basic instance of fullCalendar</h1>
+
+ <!-- The calendar container -->
+ <div id="calendar"></div>
+
+ <!-- Calendar creation script -->
+ <script src="fcbasic.js"></script>
+
+ </body>
+ </html>
